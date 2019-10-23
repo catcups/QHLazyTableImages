@@ -24,14 +24,14 @@
     <a href="https://github.com/apple/swift">
         <img src="https://img.shields.io/badge/language-swift-orange.svg">
     </a>
-    <a href="https://codebeat.co/projects/github-com-efprefix-efqrcode-master">
+    <a href="https://codebeat.co/projects/github-com-catcups-qhlazytableimages-master">
         <img src="https://codebeat.co/badges/c2ae977c-157a-4cb7-a476-76530e7f292b">
     </a>
     <a href="https://raw.githubusercontent.com/catcups/QHLazyTableImages/master/LICENSE">
         <img src="https://img.shields.io/cocoapods/l/QHLazyTableImages.svg?style=flat">
     </a>
     <a href="https://gitter.im/QHLazyTableImages/Lobby">
-        <img src="https://img.shields.io/gitter/room/QHLazyTableImages/EFQRCode.svg">
+        <img src="https://img.shields.io/gitter/room/catcups/QHLazyTableImages.svg">
     </a>
     <a href="#backers" alt="sponsors on Open Collective">
         <img src="https://opencollective.com/QHLazyTableImages/backers/badge.svg" />
