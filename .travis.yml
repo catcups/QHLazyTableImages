@@ -24,7 +24,7 @@ before_install:
 script:
   - set -o pipefail
   # - xcodebuild -project "$XCODE_PROJECT" -scheme "$SCHEME" -configuration Debug clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty -c
-  - xctool -project "$XCODE_PROJECT" -scheme "$SCHEME" build test -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
+
 
 # script:
 #   - set -o pipefail
@@ -32,6 +32,9 @@ script:
   - xcodebuild -workspace "$XCODE_WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty -c;
   - xcodebuild -workspace "$XCODE_WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Release ONLY_ACTIVE_ARCH=NO build | xcpretty -c;
 # - pod lib lint --allow-warnings
+
+- xctool -project "$XCODE_PROJECT" -scheme "$SCHEME" build test -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
+
 
 after_success:
   # - bash <(curl -s https://codecov.io/bash)
