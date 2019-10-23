@@ -1,7 +1,7 @@
 # QHLazyTableImages
 <p align="center">
     <a href="https://travis-ci.org/catcups/QHLazyTableImages">
-        <img src="https://travis-ci.org/catcups/QHLazyTableImages.svg?branch=master?style=flat-square&logo=appveyor">
+        <img src="https://travis-ci.org/catcups/QHLazyTableImages.svg?branch=master&style=flat-square&logo=appveyor">
     </a>
     <a href="https://codecov.io/gh/catcups/QHLazyTableImages">
         <img src="https://codecov.io/gh/catcups/QHLazyTableImages/branch/master/graph/badge.svg">
